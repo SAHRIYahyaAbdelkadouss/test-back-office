@@ -1,0 +1,5 @@
+npm install -g express-generator  
+
+npm install mongoose session-file-store express-session passport passport-local passport-local-mongoose passport-jwt --save
+
+docker kill $(docker ps -q)
